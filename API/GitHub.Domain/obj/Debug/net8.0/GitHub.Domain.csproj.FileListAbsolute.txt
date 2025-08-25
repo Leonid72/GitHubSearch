@@ -1,0 +1,11 @@
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\bin\Debug\net8.0\GitHub.Domain.deps.json
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\bin\Debug\net8.0\GitHub.Domain.dll
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\bin\Debug\net8.0\GitHub.Domain.pdb
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.AssemblyInfoInputs.cache
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.AssemblyInfo.cs
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.dll
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\refint\GitHub.Domain.dll
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\GitHub.Domain.pdb
+D:\Projects\GitHub\GitHubSearch\API\GitHub.Domain\obj\Debug\net8.0\ref\GitHub.Domain.dll

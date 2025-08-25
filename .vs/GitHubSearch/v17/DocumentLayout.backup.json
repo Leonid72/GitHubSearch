@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\GitHub\\GitHubSearch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\exception\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\exception\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\exception\\jwtextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\exception\\jwtextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\services\\genericcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\services\\genericcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\services\\githubsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\services\\githubsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|d:\\projects\\github\\githubsearch\\api\\github.application\\auth\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|solutionrelative:api\\github.application\\auth\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|d:\\projects\\github\\githubsearch\\api\\github.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|solutionrelative:api\\github.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA6B7D7-D96E-4E79-B953-C1F827824CC0}|API\\GitHub.Domain\\GitHub.Domain.csproj|d:\\projects\\github\\githubsearch\\api\\github.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA6B7D7-D96E-4E79-B953-C1F827824CC0}|API\\GitHub.Domain\\GitHub.Domain.csproj|solutionrelative:api\\github.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|d:\\projects\\github\\githubsearch\\api\\github.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|solutionrelative:api\\github.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|d:\\projects\\github\\githubsearch\\api\\github.infrastructure\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|solutionrelative:api\\github.infrastructure\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|d:\\projects\\github\\githubsearch\\api\\github.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C266326-1BD6-4C7F-A1A1-BDFB33920D50}|API\\GitHub.Infrastructure\\GitHub.Infrastructure.csproj|solutionrelative:api\\github.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|d:\\projects\\github\\githubsearch\\api\\github.application\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|solutionrelative:api\\github.application\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\models\\githubsearchresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\models\\githubsearchresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|d:\\projects\\github\\githubsearch\\api\\github.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22360C89-91BA-4B7B-A03F-45BC6AC876F1}|API\\GitHub.API\\GitHub.API.csproj|solutionrelative:api\\github.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|d:\\projects\\github\\githubsearch\\api\\github.application\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804FCF9B-7E1F-4DDD-B721-1098420CD064}|API\\GitHub.Application\\GitHub.Application.csproj|solutionrelative:api\\github.application\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1506152110:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:561127791:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtExtensions.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Exception\\JwtExtensions.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Exception\\JwtExtensions.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Exception\\JwtExtensions.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Exception\\JwtExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:43:54.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Auth\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Application\\Auth\\IJwtTokenGenerator.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Auth\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "API\\GitHub.Application\\Auth\\IJwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:40:56.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Application\\Dtos\\UserDto.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "API\\GitHub.Application\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:40:53.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "API\\GitHub.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:40:42.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "API\\GitHub.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:40:40.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Domain\\Users\\User.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Domain\\Users\\User.cs",
+              "RelativeToolTip": "API\\GitHub.Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:40:36.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:34:16.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Helpers\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Helpers\\GlobalUsings.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Helpers\\GlobalUsings.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Helpers\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:27:55.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Abstractions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Application\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Abstractions\\IUserRepository.cs",
+              "RelativeToolTip": "API\\GitHub.Application\\Abstractions\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:56:21.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "API\\GitHub.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:52:32.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:35:41.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\appsettings.json",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\appsettings.json",
+              "RelativeToolTip": "API\\GitHub.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T09:18:11.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GitHubSearchResultDto.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Models\\GitHubSearchResultDto.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Models\\GitHubSearchResultDto.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Models\\GitHubSearchResultDto.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Models\\GitHubSearchResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T07:18:19.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericCacheService.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Services\\GenericCacheService.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Services\\GenericCacheService.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Services\\GenericCacheService.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Services\\GenericCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:22:58.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Exception\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Exception\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Exception\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Exception\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:20:16.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Program.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:20:01.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.Application\\Auth\\AuthService.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.Application\\Auth\\AuthService.cs",
+              "RelativeToolTip": "API\\GitHub.Application\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:18:15.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GitHubSearchService.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Services\\GitHubSearchService.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Services\\GitHubSearchService.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Services\\GitHubSearchService.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Services\\GitHubSearchService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:17:43.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GitHubController.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\GitHubController.cs",
+              "RelativeDocumentMoniker": "API\\GitHub.API\\Controllers\\GitHubController.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\GitHubSearch\\API\\GitHub.API\\Controllers\\GitHubController.cs",
+              "RelativeToolTip": "API\\GitHub.API\\Controllers\\GitHubController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:13:39.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

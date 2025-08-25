@@ -1,0 +1,47 @@
+
+<div class="container mt-4">
+    <h2>GitHub Repository Gallery</h2>
+    
+    <!-- Search Input -->
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search repositories"
+        [(ngModel)]="params.keywords" 
+      />
+      <button class="btn btn-primary" (click)="fetchRepositories()">Search
+        <ng-container *ngIf="!loading(); else spinner">Search</ng-container>
+      </button>
+    </div>
+    <button class="btn btn-primary" routerLink="/favorites">View Favorites</button>
+
+    <!-- Loading Spinner -->
+    <ng-template #spinner>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      </ng-template>
+
+    <!-- Repository Gallery -->
+    <div class="row" *ngIf="(repositories()?.length || 0) > 0; else emptyState">
+      <div class="col-md-4 mb-4" *ngFor="let repo of repositories(); trackBy: trackByName">
+        <div class="card">
+          <img [src]="repo.avatarUrl" class="card-img-top" alt="Repository Avatar">
+          <div class="card-body">
+            <h5 class="card-title">{{ repo.name }}</h5>
+            <!-- <button class="btn btn-primary" (click)="addToFavorites(repo)">Add to Favorites</button> -->
+            <button
+            class="btn"
+            [ngClass]="isBookmarked(repo) ? 'btn-danger' : 'btn-primary'"
+            (click)="toggleBookmark(repo)"
+          >
+            {{ isBookmarked(repo) ? 'Remove Favorite' : 'Add to Favorites' }}
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Empty state -->
+    <ng-template #emptyState>
+        <div class="text-muted" *ngIf="!loading()">No repositories yet. Try a search.</div>
+    </ng-template>
+  </div>
