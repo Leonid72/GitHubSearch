@@ -178,31 +178,30 @@ Frontend: Angular. Backend: ASP.NET Core API with JWT auth and in‑memory cache
 
 > Если поднимаешь локально API на .NET 8, проверь CORS и базовый URL, совпадающий с `environment.apiUrl` в Angular.
 
-**Основные эндпоинты аутентификации:**
-- `POST /api/Auth/login` — логин, возвращает JWT:  
-  **Response:** `{ "token": "<JWT>" }`
-- `GET /api/Auth/me` — возвращает профиль текущего пользователя (по клейму ID). Требует заголовок:
-  ```
-  Authorization: Bearer <JWT>
-  ```
+**Main authentication endpoints:**
+- `POST /api/Auth/login` — login, returns JWT:
+**Response:** `{ "token": "<JWT>" }`
+- `GET /api/Auth/me` — returns the current user profile (by ID tag). Requires header:
+```
+Authorization: Bearer <JWT>
+```
 
-**Bookmarks (пример):**
-- `POST /api/GitHub/bookmarks?userId={id}` — добавить репозиторий в закладки (in‑memory cache)
-- `DELETE /api/GitHub/bookmarks/{userId:int}/{name}` — удалить закладку по имени (регистр не учитывается)
-- `GET /api/GitHub/bookmarks/{userId:int}` — получить список закладок
+**Bookmarks (example):**
+- `POST /api/GitHub/bookmarks?userId={id}` — add repository to bookmarks (in-memory cache)
+- `DELETE /api/GitHub/bookmarks/{userId:int}/{name}` — delete bookmark by name (case insensitive)
+- `GET /api/GitHub/bookmarks/{userId:int}` — get list of bookmarks
 
-**Примечания по /api/Auth/me:**
-- Контроллер помечен `[Authorize]` — нужен валидный JWT.
-- ID пользователя берётся из клейма `NameIdentifier` или `sub`, по нему ищется запись в БД/репозитории.
-- Токен в ответе не возвращается — только данные профиля.
+**Notes on /api/Auth/me:**
+- Controller is marked with `[Authorize]` — valid JWT is required.
+- User ID is taken from `NameIdentifier` or `sub` stamp, it is used to search for record in DB/repository.
+- No token is returned in the response — only profile data.
 
 ---
 
 ## Troubleshooting
 
-- **CORS**: при ошибке вида `No 'Access-Control-Allow-Origin'` — включи CORS в ASP.NET Core и укажи источник `http://localhost:4200`.
-- **API URL**: 404 в Angular при запросе — проверь `environment.apiUrl` и конечный маршрут в контроллере.
-
+- **CORS**: if you get an error like `No 'Access-Control-Allow-Origin'` — enable CORS in ASP.NET Core and specify the origin `http://localhost:4200`.
+- **API URL**: 404 in Angular when requesting — check `environment.apiUrl` and the final route in the controller.
 ---
 
 ## Scripts (NPM)
