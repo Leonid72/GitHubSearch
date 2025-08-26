@@ -1,7 +1,6 @@
 import { Component, ElementRef, inject, signal, ViewChild } from '@angular/core';
 import { UserService } from '../../services/user.service';
 import { CommonModule } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ResponseUser } from '../../models/responseuser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -27,7 +26,8 @@ export class LoginComponent {
   private toastr = inject(ToastrService);
 
   private _loading = signal(false);
-  get loading() {return this._loading; }
+  readonly loading = this._loading.asReadonly();
+
 
   returnUrl!: string;
 
@@ -38,9 +38,9 @@ export class LoginComponent {
 
   onLogin() {
   if (this.loading()) return; //prevent multiple submissions
-  this.loading.set(true); // display progress bar
+  this._loading.set(true); // display progress bar
   this.userService.login(this.loginData)
-    .pipe(take(1), finalize(() => this.loading.set(false)))
+    .pipe(take(1), finalize(() => this._loading.set(false)))
     .subscribe({
       next: (response: ResponseUser) => {
         console.log('Login successful:', response);
@@ -56,7 +56,7 @@ export class LoginComponent {
 
   onCreateUser() {
     this.userService.createUser(this.newUserData)
-    .pipe(take(1), finalize(() => this.loading.set(false)))
+    .pipe(take(1), finalize(() => this._loading.set(false)))
     .subscribe({
       next: (response: ResponseUser) => {
         console.log('User created successfully!:', response);

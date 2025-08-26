@@ -1,5 +1,5 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { catchError, finalize, Observable, of, Subject, take, takeUntil } from 'rxjs';
+import { finalize, of, Subject,takeUntil } from 'rxjs';
 import { GithubRepo } from '../../models/githubrepo';
 import { SearchService } from '../../services/search.service';
 import { CommonModule } from '@angular/common';
@@ -37,7 +37,9 @@ export class SearchComponent implements OnInit {
 
   private _toastr = inject(ToastrService);
   private readonly destroy$ = new Subject()
-  loading = signal(false);
+
+  private _loading = signal(false);
+  readonly loading = this._loading.asReadonly();
   error = signal<string | null>(null);
   params: SearchParams = { keywords: 'test', page: 1, perPage: 9 };
   favorites: any[] = [];
@@ -58,9 +60,10 @@ export class SearchComponent implements OnInit {
    * Fetches repositories from the GitHub API based on search parameters.
    */
 fetchRepositories(): void {
-  this.loading.set(true); // display progress bar
+  if (this.loading()) return; //prevent multiple submissions
+  this._loading.set(true); // display progress bar
   this._search.searchRepositories(this.params)
-    .pipe(takeUntil(this.destroy$), finalize(() => this.loading.set(false)))
+    .pipe(takeUntil(this.destroy$), finalize(() => this._loading.set(false)))
     .subscribe({
       next: (repositories) => {
         this._repositories.set(repositories);
