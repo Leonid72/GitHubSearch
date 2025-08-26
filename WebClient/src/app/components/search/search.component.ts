@@ -51,7 +51,7 @@ export class SearchComponent implements OnInit {
    */
   ngOnInit(): void {
     this.fetchRepositories();
-    this.getCurrentUser(); // Load bookmarks on initialization
+    this.getCurrentUser();
   }
 
    /**
@@ -83,7 +83,6 @@ trackByName = (_: number, repo: { name: string }) => repo.name;
    * @param repo - The repository to toggle bookmark status for
    */
 toggleBookmark(repo: GithubRepo): void {
-  const userId = '123'; // Replace with actual user ID
   if (this.isBookmarked(repo)) {
     // Remove bookmark
     this._search.removeBookmark(repo, this.currentUser!.id).subscribe({
