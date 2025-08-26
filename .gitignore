@@ -1,0 +1,109 @@
+
+# ------------------------------
+# OS / Editor junk
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ------------------------------
+# IDEs
+# ------------------------------
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.rsuser
+*.orig
+
+# ------------------------------
+# .NET / ASP.NET Core
+# ------------------------------
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+TestResults/
+*.nupkg
+*.snupkg
+*.cache
+*.mdb
+*.pdb
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish profiles & secrets
+*.pubxml
+*.pubxml.user
+Properties/PublishProfiles/
+**/Properties/PublishProfiles/
+*.pfx
+*.snk
+
+# App settings (keep base files, ignore local overrides)
+appsettings.*.local.json
+
+# Rider / ReSharper
+_ReSharper.Caches/
+*.DotSettings.user
+
+# ------------------------------
+# Node / Angular
+# ------------------------------
+# Node dependencies & lock files (keep lock files!)
+node_modules/
+**/node_modules/
+
+# Angular build output
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+
+# Angular cache
+.angular/
+.angular/cache/
+**/.angular/cache/
+
+# Tooling caches
+.npm/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.stylelintcache
+.cache/
+.tmp/
+
+# Optional: Ignore local environment overrides only (keep canonical env files)
+# For Angular v15+ structure (adjust if your project differs)
+src/environments/*.local.ts
+src/environment/*.local.ts
+**/*.env.local
+*.env.local
+.env.local
+.env.*.local
+
+# ------------------------------
+# Misc
+# ------------------------------
+# If you export Angular to ASP.NET Core wwwroot during CI, you can ignore only the generated subfolder:
+# wwwroot/app/*
+
+# If you use SQLite/Local DBs in dev, uncomment the next lines:
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# If you use Playwright / Cypress, uncomment as needed:
+# playwright-report/
+# test-results/
+# cypress/videos/
+# cypress/screenshots/

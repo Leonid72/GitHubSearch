@@ -28,7 +28,7 @@ namespace GitHub.Application.Auth
             _logger = logger;
         }
         public sealed record RegisterResult(bool Success, string? AccessToken);
-        public sealed record LoginResult(bool Success, string? AccessToken,User user);
+        public sealed record LoginResult(bool Success, string? AccessToken,User? user);
         /// <summary>
         /// Registers a new user in the system.
         /// </summary>
@@ -60,7 +60,7 @@ namespace GitHub.Application.Auth
             if (user == null)
             {
                 _logger.LogWarning("Login failed: invalid credentials");
-                return new(false, null,null);
+                return new(false, null, null);
             }
 
             // Verify the provided password against the stored hash

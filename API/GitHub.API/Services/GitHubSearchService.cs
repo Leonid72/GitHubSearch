@@ -46,7 +46,7 @@ namespace GitHub.Infrastructure.Servicies
             var result = JsonSerializer.Deserialize<GitHubSearchResult>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
             // Map GitHubSearchResult to GitHubSearchResultDto  
-            var dtoResult = result.Items.Select(item => new GitHubSearchResultDto
+            var dtoResult = result?.Items.Select(item => new GitHubSearchResultDto
             {
                 Name = item.Name,
                 AvatarUrl = item.Owner.AvatarUrl
