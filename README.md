@@ -176,7 +176,6 @@ Frontend: Angular. Backend: ASP.NET Core API with JWT auth and in‑memory cache
 
 ## Minimal Backend Notes (API)
 
-> Если поднимаешь локально API на .NET 8, проверь CORS и базовый URL, совпадающий с `environment.apiUrl` в Angular.
 
 **Main authentication endpoints:**
 - `POST /api/Auth/login` — login, returns JWT:
