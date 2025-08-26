@@ -88,7 +88,9 @@ trackByName = (_: number, repo: { name: string }) => repo.name;
 toggleBookmark(repo: GithubRepo): void {
   if (this.isBookmarked(repo)) {
     // Remove bookmark
-    this._search.removeBookmark(repo, this.currentUser!.id).subscribe({
+    this._search.removeBookmark(repo, this.currentUser!.id)
+    .pipe(takeUntil(this.destroy$))
+    .subscribe({
       next: () => {
         this._bookmarks.update((bookmark)=> bookmark.filter((b) => b.name !== repo.name));
         this._toastr.info('Removed from bookmarks:', repo.name);
@@ -99,7 +101,9 @@ toggleBookmark(repo: GithubRepo): void {
     });
   } else {
     // Add bookmark
-    this._search.addToBookmarks(repo, this.currentUser!.id).subscribe({
+    this._search.addToBookmarks(repo, this.currentUser!.id)
+    .pipe(takeUntil(this.destroy$))
+    .subscribe({
       next: (response) => {
         this._bookmarks.update((b) => [...b, repo]);
         this._toastr.info('Added to bookmarks:', repo.name);
