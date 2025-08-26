@@ -37,6 +37,7 @@ export class LoginComponent {
  
 
   onLogin() {
+  if (this.loading()) return; //prevent multiple submissions
   this.loading.set(true); // display progress bar
   this.userService.login(this.loginData)
     .pipe(take(1), finalize(() => this.loading.set(false)))

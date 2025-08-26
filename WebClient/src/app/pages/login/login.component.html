@@ -25,7 +25,7 @@
           minlength="6"
         />
       </div>
-      <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+      <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid || loading()">Login</button>
       <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#createUserModal">
         Create New User
       </button>
