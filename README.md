@@ -9,7 +9,7 @@ This project is a modern .NET 8 Web API for searching GitHub repositories, authe
 - **.NET 8 / C# 12**
 - **ASP.NET Core Web API**
 - **Entity Framework Core** (for data access)
-- **JWT Authentication** (with refresh token support)
+- **JWT Authentication**
 - **In-Memory Caching** (for session/bookmark storage)
 - **Repository & Service Patterns**
 - **Swagger/OpenAPI** (for API documentation)
